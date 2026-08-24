@@ -6,7 +6,7 @@ env:
   Name: 'Job'
 jobs:
   lint:
-    runs-on: ubunto@latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v7
     - name: Set up Node
